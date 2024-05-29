@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: hwb(43 58% 16%);
+        }
+
+        .heading{
+            padding: 10px;
+            width: auto;
+            margin: 1rem 1rem 2.5rem 1rem;
+            background-color: rgb(201, 201, 19);
+            border-radius: 5px;
+        }
+
+        .form-box{
+            background: fixed beige url(../wstream1.jpg) repeat;
+            margin: 0 auto;
+            width: 80%;
+            padding: 2rem;
+            border: 3px solid brown;
+            height: 80%;
+        }
+        
+        .sign-in{
+            text-align: center;
+        }
+
+        .heading:hover{
+            background-color: seashell;
+        }
+
+        .sign-h1{
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .sign-h1:hover{
+            color: lightsalmon;
+        }
+
+        .sign-page{ 
+            color: blueviolet;
+        }
+
+        .form-itself{
+            /* border: 2px solid salmon; */
+            height: 80%;
+            width: 80%;
+            padding: 2rem;
+            margin: 1rem auto 2rem;
+            background-color: rgba(42, 14, 70, 0.4);
+            border-radius: 0.5rem;
+        }
+
+        .nlabel{
+            padding: 0.5rem;
+            border: 1px solid blue;
+            color: whitesmoke;
+            text-align: center;
+            width: 30%;
+            background-color: rgb(133, 133, 237);
+            border-radius: 0.5rem;
+            margin: 1rem 2rem 0.5rem 1rem;
+            font-size: 20px;
+        }
+
+        .input{
+            width: 70% ;
+            height: 2rem;
+            border: none;
+            border-radius: 0.5rem;
+            color: rgb(133, 133, 237);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .input-flex{
+            width: 100%;
+            display: flex;
+            margin: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading" id="heading-id">
+        <div class="sign-in">
+            <h1 class="sign-h1">Gracious Telecom. Nig. Ltd</h1>
+            <small class="sign-page">Sign In Page</small>
+        </div>
+    </div>
+
+    <div class="form-box">     
+        <form action="#" class="form-itself">
+            <div class="input-flex">
+                <div>
+                    <label for="fname" class="nlabel">First Name:</label>
+                </div>
+                <div>
+                    <input type="text" class="input" name="fname">
+                </div>
+            </div>
+
+            <div class="input-flex">
+                <div>
+                    <label for="lname" class="nlabel">Last Name:</label>
+                </div>
+                <div>
+                    <input type="text" class="input" name="lname">
+                </div>
+            </div>
+
+            <div class="input-flex">
+                <div>
+                    <label for="username" class="nlabel">Username:</label>
+                </div>
+                <div>
+                    <input type="text" class="input" name="username">
+                </div>
+            </div>
+
+            <div class="input-flex">
+                <div>
+                    <label for="email" class="nlabel">Email:</label>
+                </div>
+                <div>
+                    <input type="email" class="input" name="email">
+                </div>
+            </div>
+
+            <div class="input-flex">
+                <div>
+                    <label for="password" class="nlabel">Password:</label>
+                </div>
+                <div>
+                    <input type="password" class="input" name="password">
+                </div>
+            </div>
+
+            <div class="input-flex">
+                <div>
+                    <label for="con-password" class="nlabel">Comfirm Password:</label>
+                </div>
+                <div>
+                    <input type="password" class="input" name="con-password">
+                </div>
+            </div>
+
+                <div>
+                    <input type="submit" class="input" value="Create Account">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div>
+        <p>
+            <a href="../html_project/proj1.html">Back</a>
+        </p>
+    </div>
+
+
+    
+    
+</body>
+</html>
+
